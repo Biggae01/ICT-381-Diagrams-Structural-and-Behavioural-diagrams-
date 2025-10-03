@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RollCallActivity">
+
+    <TextView
+        android:id="@+id/tvRollCallTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Roll Call for CS101"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"
+        tools:ignore="HardcodedText" />
+
+    <ListView
+        android:id="@+id/lvStudents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvRollCallTitle"
+        android:layout_above="@id/btnSaveAttendance" />
+    <Button
+        android:id="@+id/btnExportAttendance"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnSaveAttendance"
+        android:layout_alignBottom="@id/btnSaveAttendance"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@id/btnSaveAttendance"
+        android:layout_alignParentStart="true"
+        android:text="Export CSV" />
+
+    <Button
+        android:id="@+id/btnSaveAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="Save Attendance"
+        android:padding="12dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

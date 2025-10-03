@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- Course List -->
+    <string name="courses_title">Courses</string>
+    <string name="open_gradebook">Open Gradebook</string>
+
+    <!-- Course Form -->
+    <string name="course_form_title">New Course</string>
+    <string name="course_code_label">Course Code</string>
+    <string name="course_name_label">Course Name</string>
+    <string name="student_count_label">Student Count</string>
+    <string name="session_count_label">Session Count</string>
+    <string name="percentage_label">Percentage</string>
+
+    <!-- Spinner -->
+    <string name="spinner_hint">Select a course</string>
+    <string name="spinner_title">Courses</string>
+    <string name="spinner_select_course">Select a course</string>
+
+    <!-- Spinner Array -->
+    <string-array name="courses_array">
+        <item>Select a course to view</item>
+        <item>CS101</item>
+        <item>MATH201</item>
+        <item>ENG102</item>
+    </string-array>
+
+    <!-- Roll Call -->
+    <string name="roll_call_title">Roll Call</string>
+    <string name="submit_attendance">Submit Attendance</string>
+    <string name="present_label">Present</string>
+
+    <!-- Gradebook -->
+    <string name="gradebook_title">Gradebook</string>
+    <string name="select_course">Select a course</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="courses">Courses</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="search_courses_by_code_or_name">Search courses by code or name</string>
+    <string name="students_icon">Students Icon</string>
+    <string name="sessions_icon">Sessions Icon</string>
+    <string name="math201">MATH201</string>
+    <string name="calculus_ii">Calculus II</string>
+
+
+</resources>
